@@ -17,8 +17,8 @@ class CreateAnimal extends Component {
 	componentDidMount() {
 		const { speciesList } = this.props;
 		Object.entries(speciesList).forEach(
-			([speciesName, speciesValue]) => {
-				this.state.speciesNames.push(speciesName);
+			([species]) => {
+				this.state.speciesNames.push(species);
 			}
 		);
 	}

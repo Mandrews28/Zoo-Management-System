@@ -30,12 +30,12 @@ class AssignZookeeperToPen extends Component {
 	componentDidMount() {
 		const { penList, zookeeperList } = this.props;
 		Object.entries(penList).forEach(
-			([penId, penValue]) => {
+			([penId]) => {
 				this.state.penIds.push(penId);
 			}
 		);
 		Object.entries(zookeeperList).forEach(
-			([zookeeperName, zookeeperValue]) => {
+			([zookeeperName]) => {
 				this.state.zookeeperNames.push(zookeeperName);
 			}
 		);

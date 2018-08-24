@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06a9fc4-9f05-429a-b8b5-735b183f1d55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/Zoo.java" afterPath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/Zoo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/ZooManager.java" afterPath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/ZooManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zookeeper.java" afterPath="$PROJECT_DIR$/src/main/java/APAssignment/Model/Zookeeper.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/Zoo.class" afterPath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/Zoo.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/ZooManager$1.class" afterPath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/ZooManager$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/ZooManager.class" afterPath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zoo/ZooManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zookeeper.class" afterPath="$PROJECT_DIR$/target/classes/APAssignment/Model/Zookeeper.class" />
       <change beforePath="$PROJECT_DIR$/zoo.json" afterPath="$PROJECT_DIR$/zoo.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -535,10 +527,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18301435" sideWeight="0.502029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18301435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18301435" sideWeight="0.49797103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />

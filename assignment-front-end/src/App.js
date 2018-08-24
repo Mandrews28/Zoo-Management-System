@@ -22,6 +22,7 @@ class App extends Component {
 		document.body.appendChild(tabContent);
 
 		this.getWeather = this.getWeather.bind(this);
+		this.replaceZoo = this.replaceZoo.bind(this);
 	}
 
 	componentDidMount() {
@@ -97,7 +98,7 @@ class App extends Component {
 	}
 
 	replaceZoo = (newZoo) => {
-		this.setState({ zoo: newZoo });
+		this.setState({ zoo: newZoo }, () => console.log(this.state));
 		console.log(newZoo);
 	}
 

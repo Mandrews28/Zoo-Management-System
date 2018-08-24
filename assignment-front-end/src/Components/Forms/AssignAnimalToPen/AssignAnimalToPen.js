@@ -28,17 +28,7 @@ class AssignAnimalToPen extends Component {
 	}
 
 	componentDidMount() {
-		const { penList, animalList } = this.props;
-		Object.entries(penList).forEach(
-			([penId, penValue]) => {
-				this.state.penIds.push(penId);
-			}
-		);
-		Object.entries(animalList).forEach(
-			([animalName, animalValue]) => {
-				this.state.animalNames.push(animalName);
-			}
-		);
+		
 	}
 
 	submit = async () => {
@@ -69,6 +59,27 @@ class AssignAnimalToPen extends Component {
 				});
 			}
 		}
+	}
+
+	static getDerivedStateFromProps(props, state) {
+		const { penList, animalList } = props;
+		let penListArray = [], animalListArray = [];
+
+		Object.entries(penList).forEach(
+			([penId]) => {
+				penListArray.push(penId);
+			}
+		);
+		Object.entries(animalList).forEach(
+			([animalName]) => {
+				animalListArray.push(animalName);
+			}
+		);
+
+		return {
+			penIds: penListArray,
+			animalNames: animalListArray
+		};
 	}
 
 	getSelectedAnimal = (selectedAnimal) => {

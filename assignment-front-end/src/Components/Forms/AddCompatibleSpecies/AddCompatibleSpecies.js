@@ -17,7 +17,7 @@ class AddCompatibleSpecies extends Component {
 	componentDidMount() {
 		const { speciesList } = this.props;
 		Object.entries(speciesList).forEach(
-			([speciesName, speciesValue]) => {
+			([speciesName]) => {
 				this.state.speciesNames.push(speciesName);
 			}
 		);
