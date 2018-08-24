@@ -7,7 +7,6 @@ import APAssignment.Model.Pens.*;
 import APAssignment.Model.Zookeeper;
 
 import java.util.ArrayList;
-import java.util.Map;
 
 public abstract class ZooManager {
 
@@ -113,37 +112,24 @@ public abstract class ZooManager {
     }
 
     private static Zookeeper getChosenZookeeperFromPenType(PenType penType) {
-        Zookeeper chosenZookeeper = null;
-        switch (penType) {
-            case AQUARIUM:
-                if (Zookeeper.getAquariumZookeepersByName().size() == 0) break;
-                chosenZookeeper = getChosenZookeeperFromMap(Zookeeper.getAquariumZookeepersByName());
-                break;
-            case AVIARY:
-                if (Zookeeper.getAviaryZookeepersByName().size() == 0) break;
-                chosenZookeeper = getChosenZookeeperFromMap(Zookeeper.getAviaryZookeepersByName());
-                break;
-            case DRY:
-                if (Zookeeper.getDryZookeepersByName().size() == 0) break;
-                chosenZookeeper = getChosenZookeeperFromMap(Zookeeper.getDryZookeepersByName());
-                break;
-            case PART_WATER_PART_DRY:
-                if (Zookeeper.getPartWaterPartDryZookeepersByName().size() == 0) break;
-                chosenZookeeper = getChosenZookeeperFromMap(Zookeeper.getPartWaterPartDryZookeepersByName());
-                break;
-            case PETTING:
-                if (Zookeeper.getPettingZookeepersByName().size() == 0) break;
-                chosenZookeeper = getChosenZookeeperFromMap(Zookeeper.getPettingZookeepersByName());
-                break;
+        ArrayList<Zookeeper> suitableZookeepers = new ArrayList<>();
+
+        for (Zookeeper zookeeper : Zookeeper.getZookeeperListByName().values()) {
+            for (PenType type : zookeeper.getPenTypes()) {
+                if (type.equals(penType)) {
+                    suitableZookeepers.add(zookeeper);
+                }
+            }
         }
-        return chosenZookeeper;
+
+        return getChosenZookeeperFromList(suitableZookeepers);
     }
 
-    private static Zookeeper getChosenZookeeperFromMap(Map<String, Zookeeper> zookeepers) {
+    private static Zookeeper getChosenZookeeperFromList(ArrayList<Zookeeper> zookeepers) {
         Zookeeper chosenZookeeper = null;
         int minimumNumPensAttendingByAZookeeper = Pen.getPenListById().size();
 
-        for (Zookeeper zookeeper : zookeepers.values()) {
+        for (Zookeeper zookeeper : zookeepers) {
 
             if (zookeeper.getNumPensAttending() < minimumNumPensAttendingByAZookeeper) {
                 chosenZookeeper = zookeeper;

@@ -16,20 +16,11 @@ public class Zoo {
     private Map<String, Animal> animalListByName;
     private ArrayList<String> compatibleSpecies;
 
-    private ArrayList<Animal> animalListWithNoPen;
-    private ArrayList<Pen> penListWithNoZookeeper;
-
     private int numOfAquariums;
     private int numOfAviaries;
     private int numOfDryPens;
     private int numOfPartWaterPartDryPens;
     private int numOfPettingPens;
-
-    private Map<String, Zookeeper> aquariumZookeepersByName;
-    private Map<String, Zookeeper> aviaryZookeepersByName;
-    private Map<String, Zookeeper> dryZookeepersByName;
-    private Map<String, Zookeeper> partWaterPartDryZookeepersByName;
-    private Map<String, Zookeeper> pettingZookeepersByName;
 
     public Zoo() {
         this.zookeeperListByName = Zookeeper.getZookeeperListByName();
@@ -38,20 +29,11 @@ public class Zoo {
         this.animalListByName = Animal.getAnimalListByName();
         this.compatibleSpecies = CompatibleSpecies.getList();
 
-        this.animalListWithNoPen = Animal.getAnimalListWithNoPen();
-        this.penListWithNoZookeeper = Pen.getPenListWithNoZookeeper();
-
         this.numOfAquariums = Aquarium.getNumOfPens();
         this.numOfAviaries = Aviary.getNumOfPens();
         this.numOfDryPens = DryPen.getNumOfPens();
         this.numOfPartWaterPartDryPens = PartWaterPartDry.getNumOfPens();
         this.numOfPettingPens = PettingPen.getNumOfPens();
-
-        this.aquariumZookeepersByName = Zookeeper.getAquariumZookeepersByName();
-        this.aviaryZookeepersByName = Zookeeper.getAviaryZookeepersByName();
-        this.dryZookeepersByName = Zookeeper.getDryZookeepersByName();
-        this.partWaterPartDryZookeepersByName = Zookeeper.getPartWaterPartDryZookeepersByName();
-        this.pettingZookeepersByName = Zookeeper.getPettingZookeepersByName();
     }
 
     public static void setStaticVariablesWithJsonString(Zoo zoo) {
@@ -69,12 +51,6 @@ public class Zoo {
         DryPen.setNumOfPens(zoo.getNumOfDryPens());
         PartWaterPartDry.setNumOfPens(zoo.getNumOfPartWaterPartDryPens());
         PettingPen.setNumOfPens(zoo.getNumOfPettingPens());
-
-        Zookeeper.setAquariumZookeepersByName(zoo.getAquariumZookeepersByName());
-        Zookeeper.setAviaryZookeepersByName(zoo.getAviaryZookeepersByName());
-        Zookeeper.setDryZookeepersByName(zoo.getDryZookeepersByName());
-        Zookeeper.setPartWaterPartDryZookeepersByName(zoo.getPartWaterPartDryZookeepersByName());
-        Zookeeper.setPettingZookeepersByName(zoo.getPettingZookeepersByName());
     }
 
     public static void setPenListWithNoZookeeper() {
@@ -119,10 +95,6 @@ public class Zoo {
         return compatibleSpecies;
     }
 
-    public ArrayList<Animal> getAnimalListWithNoPen() {
-        return animalListWithNoPen;
-    }
-
     public void setAnimalListByName(Map<String, Animal> animalListByName) {
         this.animalListByName = animalListByName;
     }
@@ -141,18 +113,6 @@ public class Zoo {
 
     public void setCompatibleSpecies(ArrayList<String> compatibleSpecies) {
         this.compatibleSpecies = compatibleSpecies;
-    }
-
-    public void setAnimalListWithNoPen(ArrayList<Animal> animalListWithNoPen) {
-        this.animalListWithNoPen = animalListWithNoPen;
-    }
-
-    public ArrayList<Pen> getPenListWithNoZookeeper() {
-        return penListWithNoZookeeper;
-    }
-
-    public void setPenListWithNoZookeeper(ArrayList<Pen> penListWithNoZookeeper) {
-        this.penListWithNoZookeeper = penListWithNoZookeeper;
     }
 
     public int getNumOfAquariums() {
@@ -195,46 +155,6 @@ public class Zoo {
         this.numOfPettingPens = numOfPettingPens;
     }
 
-    public Map<String, Zookeeper> getAquariumZookeepersByName() {
-        return aquariumZookeepersByName;
-    }
-
-    public void setAquariumZookeepersByName(Map<String, Zookeeper> aquariumZookeepersByName) {
-        this.aquariumZookeepersByName = aquariumZookeepersByName;
-    }
-
-    public Map<String, Zookeeper> getAviaryZookeepersByName() {
-        return aviaryZookeepersByName;
-    }
-
-    public void setAviaryZookeepersByName(Map<String, Zookeeper> aviaryZookeepersByName) {
-        this.aviaryZookeepersByName = aviaryZookeepersByName;
-    }
-
-    public Map<String, Zookeeper> getDryZookeepersByName() {
-        return dryZookeepersByName;
-    }
-
-    public void setDryZookeepersByName(Map<String, Zookeeper> dryZookeepersByName) {
-        this.dryZookeepersByName = dryZookeepersByName;
-    }
-
-    public Map<String, Zookeeper> getPartWaterPartDryZookeepersByName() {
-        return partWaterPartDryZookeepersByName;
-    }
-
-    public void setPartWaterPartDryZookeepersByName(Map<String, Zookeeper> partWaterPartDryZookeepersByName) {
-        this.partWaterPartDryZookeepersByName = partWaterPartDryZookeepersByName;
-    }
-
-    public Map<String, Zookeeper> getPettingZookeepersByName() {
-        return pettingZookeepersByName;
-    }
-
-    public void setPettingZookeepersByName(Map<String, Zookeeper> pettingZookeepersByName) {
-        this.pettingZookeepersByName = pettingZookeepersByName;
-    }
-
     @Override
     public String toString() {
         return "Zoo{" +
@@ -243,18 +163,11 @@ public class Zoo {
                 ", penListById=" + penListById +
                 ", animalListByName=" + animalListByName +
                 ", compatibleSpecies=" + compatibleSpecies +
-                ", animalListWithNoPen=" + animalListWithNoPen +
-                ", penListWithNoZookeeper=" + penListWithNoZookeeper +
                 ", numOfAquariums=" + numOfAquariums +
                 ", numOfAviaries=" + numOfAviaries +
                 ", numOfDryPens=" + numOfDryPens +
                 ", numOfPartWaterPartDryPens=" + numOfPartWaterPartDryPens +
                 ", numOfPettingPens=" + numOfPettingPens +
-                ", aquariumZookeepersByName=" + aquariumZookeepersByName +
-                ", aviaryZookeepersByName=" + aviaryZookeepersByName +
-                ", dryZookeepersByName=" + dryZookeepersByName +
-                ", partWaterPartDryZookeepersByName=" + partWaterPartDryZookeepersByName +
-                ", pettingZookeepersByName=" + pettingZookeepersByName +
                 '}';
     }
 }
