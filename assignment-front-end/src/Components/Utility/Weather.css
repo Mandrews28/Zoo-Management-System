@@ -1,0 +1,7 @@
+.WeatherDiv, .WeatherShow, .WeatherButton {
+	display: inline-block;
+}
+.WeatherButton {
+	margin-left: 15px;
+	border-style: inset;
+}

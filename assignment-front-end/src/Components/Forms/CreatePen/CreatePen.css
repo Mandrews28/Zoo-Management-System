@@ -1,0 +1,16 @@
+#PenID {
+	margin-bottom: 10px;
+}
+#inputField {
+	vertical-align: middle;
+	font-size: 14px;
+	height: 18px;
+	margin-left: 10px;
+}
+#Temperature, #Length, #Width, #Height, #WaterVolume {
+	margin-top: 15px;
+}
+#submit {
+	margin-top: 20px;
+	font-size: 14px;
+}

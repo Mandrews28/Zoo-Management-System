@@ -1,0 +1,13 @@
+#AnimalName {
+	margin-bottom: 15px;
+}
+#AnimalText {
+	vertical-align: middle;
+	font-size: 14px;
+	height: 18px;
+	margin-left: 10px;
+}
+#submit {
+	margin-top: 20px;
+	font-size: 14px;
+}
