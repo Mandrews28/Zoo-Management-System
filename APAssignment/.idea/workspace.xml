@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1185">
@@ -29,6 +29,61 @@
                 <element signature="method#addAnimalToPen#0;class#Controller#0" expanded="false" />
                 <element signature="method#addZookeeperToPen#0;class#Controller#0" expanded="false" />
                 <element signature="method#autoAllocateAnimals#0;class#Controller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zookeeper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zookeeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="method#Zookeeper#1;class#Zookeeper#0" expanded="false" />
+                <element signature="method#setZookeeperListByName#0;class#Zookeeper#0" expanded="false" />
+                <element signature="method#toString#0;class#Zookeeper#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZooManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/ZooManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#clearZoo#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#createNewPen#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#createNewSpecies#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#createNewAnimal#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#addCompatibleSpecies#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#canAutoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#autoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#canAutoAllocateZookeepersToPens#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#getChosenZookeeperFromPenType#0;class#ZooManager#0" expanded="false" />
+                <element signature="method#getChosenZookeeperFromList#0;class#ZooManager#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zoo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/Zoo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="method#Zoo#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setStaticVariablesWithJsonString#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setAnimalListWithNoPen#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setSpeciesListByName#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setZookeeperListByName#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setCompatibleSpecies#0;class#Zoo#0" expanded="false" />
+                <element signature="method#setNumOfPartWaterPartDryPens#0;class#Zoo#0" expanded="false" />
+                <element signature="method#toString#0;class#Zoo#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,10 +189,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1541" />
-    <option name="y" value="66" />
-    <option name="width" value="1767" />
-    <option name="height" value="931" />
+    <option name="x" value="103" />
+    <option name="y" value="88" />
+    <option name="width" value="1326" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -516,7 +571,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1541" y="66" width="1767" height="931" extended-state="0" />
+    <frame x="103" y="88" width="1326" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -527,14 +582,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18301435" sideWeight="0.502029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24285714" sideWeight="0.50311524" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18301435" sideWeight="0.49797103" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24285714" sideWeight="0.49688473" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898551" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36722487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1008,20 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Pens/PenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="method#addAnimal#0;class#PenManager#0" expanded="false" />
-            <element signature="method#addAnimal#1;class#PenManager#0" expanded="false" />
-            <element signature="method#removeAnimal#0;class#PenManager#0" expanded="false" />
-            <element signature="method#addZookeeper#0;class#PenManager#0" expanded="false" />
-            <element signature="method#canZookeeperBeRemovedFromPen#0;class#PenManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1037,62 +1078,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/ZooManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#clearZoo#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#createNewPen#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#createNewSpecies#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#createNewAnimal#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#addCompatibleSpecies#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#canAutoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#autoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#canAutoAllocateZookeepersToPens#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#autoAllocateZookeepersToPens#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#getChosenZookeeperFromPenType#0;class#ZooManager#0" expanded="false" />
-            <element signature="method#getChosenZookeeperFromList#0;class#ZooManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zoo.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5260" lean-forward="false" selection-start-line="0" selection-start-column="5260" selection-end-line="0" selection-end-column="5260" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zookeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="method#Zookeeper#1;class#Zookeeper#0" expanded="false" />
-            <element signature="method#setZookeeperListByName#0;class#Zookeeper#0" expanded="false" />
-            <element signature="method#toString#0;class#Zookeeper#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/Zoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="method#Zoo#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setStaticVariablesWithJsonString#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setPenListWithNoZookeeper#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setAnimalListWithNoPen#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setSpeciesListByName#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setZookeeperListByName#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setCompatibleSpecies#0;class#Zoo#0" expanded="false" />
-            <element signature="method#setNumOfPartWaterPartDryPens#0;class#Zoo#0" expanded="false" />
-            <element signature="method#toString#0;class#Zoo#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,6 +1099,69 @@
             <element signature="method#addAnimalToPen#0;class#Controller#0" expanded="false" />
             <element signature="method#addZookeeperToPen#0;class#Controller#0" expanded="false" />
             <element signature="method#autoAllocateAnimals#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zookeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="method#Zookeeper#1;class#Zookeeper#0" expanded="false" />
+            <element signature="method#setZookeeperListByName#0;class#Zookeeper#0" expanded="false" />
+            <element signature="method#toString#0;class#Zookeeper#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Pens/PenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="method#addAnimal#0;class#PenManager#0" expanded="false" />
+            <element signature="method#addAnimal#1;class#PenManager#0" expanded="false" />
+            <element signature="method#removeAnimal#0;class#PenManager#0" expanded="false" />
+            <element signature="method#addZookeeper#0;class#PenManager#0" expanded="false" />
+            <element signature="method#canZookeeperBeRemovedFromPen#0;class#PenManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/Zoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="method#Zoo#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setStaticVariablesWithJsonString#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setAnimalListWithNoPen#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setSpeciesListByName#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setZookeeperListByName#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setCompatibleSpecies#0;class#Zoo#0" expanded="false" />
+            <element signature="method#setNumOfPartWaterPartDryPens#0;class#Zoo#0" expanded="false" />
+            <element signature="method#toString#0;class#Zoo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/APAssignment/Model/Zoo/ZooManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clearZoo#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#createNewPen#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#createNewSpecies#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#createNewAnimal#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#addCompatibleSpecies#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#canAutoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#autoAllocateAnimalsToPens#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#canAutoAllocateZookeepersToPens#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#getChosenZookeeperFromPenType#0;class#ZooManager#0" expanded="false" />
+            <element signature="method#getChosenZookeeperFromList#0;class#ZooManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
