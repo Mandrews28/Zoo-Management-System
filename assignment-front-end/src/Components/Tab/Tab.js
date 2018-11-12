@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Tab.css';
+//https://alligator.io/react/tabs-component/
 
 class Tab extends Component {
 	static propTypes = {
