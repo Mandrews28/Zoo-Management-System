@@ -1,6 +1,6 @@
 # sd2-pr2-Mandrews28
 
-To load my assignment, you need to set up both the front end (in Javascript: assignment-front-end) and the back end (in Java: APAssignment).
+To load my assignment, you need to set up both the front end (in Javascript: Front-End) and the back end (in Java: Back-End).
 I have been working on the back end (BE) in Intellij and the front end (FE) in Visual Studio Code.
 I advise that the BE is loaded in Intellij because there are configurations (external libraries) that need to be loaded so that the program can run. These external libraries can be seen in the BE_Libraries.png file.
 
